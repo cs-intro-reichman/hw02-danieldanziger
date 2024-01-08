@@ -5,14 +5,18 @@
  */
 public class OneOfEach {
 	public static void main (String[] args) {
-		//// Put your code here
+		//// Put your code here // TODO: remove this comment. Leave the code clean
 		double x = 0;   // the number from random 0-10
-		int g = 0;
+		int g = 0; // TODO: not informative names of the variables
 		int b = 0;
-		int c = 0; //number of children
+		int c = 0; //number of children TODO: put space after `//` 
+		// TODO: more clean would be g < 1 || b < 1
 		while (g <1 || b<1) //when the count comes to 1g and 1b the loop will stop.
 		{
+			// TODO: should be Math.random(); instead of (Math.random())
 			x = (Math.random());   //when calling a function we need to have ()
+			
+			// TODO: move left all the code below. Don't need identations 
 		       if (x<0.5)                  //random generates from 0 to 1, 0.5 gives same odds to boy or girl
 			   {
 				   g++;           //if the number is even, count one more girl
